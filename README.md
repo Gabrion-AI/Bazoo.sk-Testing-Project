@@ -1,59 +1,78 @@
 # Bazoo.sk Testing Project
 ### Manual Testing of a New Classified Ads Portal
 
-This repository contains a **manual testing project** for the new Slovak online classified ads portal **Bazoo.sk**.  
-The goal is to verify core functionality and identify defects during early development of the website.
+This repository contains a **manual testing project** of the new Slovak classified ads website **Bazoo.sk**.  
+The testing is focused on the **current early-stage version** of the portal to identify defects before future improvements and full public release.
+
+🕸 Tested website: https://bazoo.sk/ <!-- Source used: turn0view0 -->
 
 ---
 
-## 📄 Final Test Report
+## 📄 Final Test Report (coming soon)
 
-All testing documentation will be delivered in a **single professional PDF report**:
+All documentation will be delivered as a **single professional PDF file**:
 
-> **Bazoo-Test-Report-v1.0.pdf**  
-(added after test execution)
+> **Bazoo-Test-Report-v1.0.pdf**
 
-The document will include:
+The PDF will include:
 - Test Scenarios (TS)
 - Test Cases (TC)
 - Execution results (PASSED / FAILED)
 - Bug Reports with screenshots
-- Summary of test results
+- Summary of test findings
+- Environment details (browser, OS)
+
+This PDF will be **uploaded here** after the testing is completed.
+
+---
+
+## 🖼️ Tested Website Preview
+
+Here is the homepage of the tested website Bazoo.sk:
+
+<img src="screen.png" width="750">
+
+*(Screenshot captured during testing of the currently available version.)*
 
 ---
 
 ## 🔍 Scope of Testing
 
-The testing focuses on the main functional areas discovered during exploratory analysis:
+The testing focuses on the main functional areas currently visible on the portal:
 
-- Homepage and navigation
-- Searching ads by text and category
+- Homepage & general navigation
+- Searching ads by text + category
 - User login & registration
-- Adding new ads (forms & validation)
-- Viewing articles and static pages (FAQ, contact, privacy, etc.)
+- Adding a new classified ad (form & validation)
+- Viewing informational pages (FAQ, Contact, Pricing, Privacy Policy)
+
+> Functional availability may change over time, since the portal is still under active development.
 
 ---
 
 ## 🧪 Testing Approach
 
 - Manual functional testing
-- Positive & negative test cases
-- Bug reporting with detailed reproduction steps and evidence
-- Regression (if fixes appear later)
+- Positive and negative test cases
+- Bug reporting with evidence (screenshots)
+- Tracking status (PASSED / FAILED)
+- Regression (if fixes are applied later)
 
-The test documentation is created using a custom **QA Manager** tool developed in Python.
+📌 Documentation is created using a custom desktop QA tool  
+**QA Manager – Test Case & Bug Reporting Tool (Python/Tkinter)**  
+→ developed by the author as part of QA learning
 
 ---
 
-## 🎯 Purpose
+## 🎯 Project Goal
 
-This is a **QA portfolio project** demonstrating:
-✔️ analytical thinking  
-✔️ testing methodology knowledge  
-✔️ practical defect reporting  
-✔️ ability to deliver professional documentation  
+This project demonstrates:
+✔️ analytical and logical thinking  
+✔️ real testing of a living product  
+✔️ industry-standard documentation  
+✔️ professionalism for QA portfolio use  
 
-Useful for applying to **Junior QA / Manual Tester** positions.
+It is intended to support applications for **Junior QA / Manual Tester** roles.
 
 ---
 
